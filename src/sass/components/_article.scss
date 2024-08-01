@@ -53,17 +53,20 @@
   .article__price {
     color: var(--color-black);
     font-size: var(--font-size-lg);
+    font-weight: 700;
   }
 
   .article__sale {
     color: var(--color-primary);
     margin-right: var(--space-price);
     font-size: var(--font-size-lg);
+    font-weight: 700;
   }
 
   .article__no-sale {
     text-decoration: line-through;
     color: var(--color-secondary);
     font-size: var(--font-size-lg);
+    font-weight: 700;
   }
 }

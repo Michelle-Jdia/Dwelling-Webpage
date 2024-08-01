@@ -23,6 +23,7 @@
     }
 
     .footer__privacy-text {
+      font-family: var(--font-roboto);
       color: var(--color-secondary);
       margin-top: var(--space-xs);
       max-width: 24rem;
@@ -40,6 +41,7 @@
     //todo: refactor duplicated styles
 
     .footer__privacy-text-mobile {
+      font-family: var(--font-roboto);
       display: none;
       color: var(--color-secondary);
       margin-top: var(--space-xs);

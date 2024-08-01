@@ -24,12 +24,21 @@ Ensure you have the following installed:
 1. **Clone the repository**
 
    ```bash
-   git clone <repository_url>
-   cd <repository_directory>
+   git clone https://github.com/Michelle-Jdia/Dwelling-Webpage.git
 
 2. **Start locally**
    ```bash
    npm run dev
+
+## Links
+
+#### link to website
+
+[link GitHub](https://michelle-jdia.github.io/Dwelling-Webpage/dist/index.html)
+
+#### link to repository
+
+[link GitHub](https://github.com/Michelle-Jdia/Dwelling-Webpage)
 
 ## My contact
 
