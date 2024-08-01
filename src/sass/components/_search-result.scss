@@ -1,0 +1,17 @@
+.search-result {
+  margin-top: var(--space-section);
+
+  &__title {
+    font-size: var(--font-size-h1);
+    font-family: var(--font-korataki);
+  }
+
+  .search-result__container {
+    margin-top: var(--space-box);
+    display: grid;
+    grid-template-columns: var(--article-grid-template-columns);
+    row-gap:  var(--article-grid-row-gap);
+    column-gap:  var(--article-grid-column-gap);
+  }
+}
+

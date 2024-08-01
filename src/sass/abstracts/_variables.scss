@@ -1,0 +1,131 @@
+:root {
+  --font-lato: 'Lato', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
+  --font-korataki: 'Korataki', serif;
+  --font-inter: 'Inter', sans-serif;
+  --font-open-sans: 'Open Sans', sans-serif;
+
+  --color-primary: #E45302;
+  --color-secondary: #808080;
+  --color-black: #231815;
+  --color-black-dark: #0D0B26;
+  --color-black-footer: #0C0C0C;
+  --color-white: #FFFFFF;
+  --color-border-gray: #000000;
+
+  --color-text-white: var(--color-white);
+  --color-text-black: var(--color-black);
+
+  --border-radius-base: 5rem;
+  --border-radius-article: 1.25rem;
+  --border-radius-full: 50%;
+
+  --space-box: 2.5rem;
+  --space-section: 3.75rem;
+  --space-content: 16.25rem;
+  --space-banner-link: 4.375rem;
+  --space-nav-link: 6.25rem;
+  --space-price: 1rem;
+  --space-payment-logo: 1.8rem;
+
+  --space-xs: .3rem;
+  --space-sm: .75rem;
+  --space-md: 1.25rem;
+  --space-lg: 2rem;
+  --space-xl: 2.375rem;
+  --space-xxl: 4.375rem;
+
+  --space-burger-line: .213rem;
+  --space-button: .4rem;
+  --space-button-md: .8rem;
+  --space-button-x: 1.3rem;
+  --space-button-y: 1.3rem;
+
+  --space-input: .7rem;
+  --space-input-x: 1.35rem;
+  --space-input-y: 1.35rem;
+
+  --font-size-base: 1rem;
+  --font-size-md: 1.125rem;
+  --font-size-lg: 1.375rem;
+  --font-size-xl: 2.75rem;
+
+  --font-size-h1: var(--font-size-xl);
+  --font-size-h2: var(--font-size-lg);
+  --font-size-h3: var(--font-size-md);
+  --font-size-h4: var(--font-size-base);
+
+  --font-weight-base: 400;
+  --font-weight-md: 600;
+  --font-weight-lg: 700;
+
+  --line-height-base: 1rem;
+  --line-height-md: 1.575rem;
+  --line-height-lg: 1.375rem;
+  --line-height-xl: 1.875rem;
+
+  --icon-size-base: 1.313rem;
+
+  --burger-button-width: 1.44rem;
+
+  --header-height: 3.813rem;
+
+  --logo-width: 8.813rem;
+  --footer-logo-width: 14.938rem;
+
+
+  --burger-line-height: 0.1rem;
+  --article-width: 20rem;
+  --article-overlay-bg-color: rgba(245, 245, 245, 0.7);
+  --article-overlay-height: 5.5rem;
+  --article-grid-row-gap: 3.125rem;
+  --article-grid-column-gap: 2.5rem;
+  --article-grid-template-columns: repeat(4, 1fr);
+
+  --footer-padding-y: 3.75rem;
+}
+
+@media (max-width: 1600px) {
+  :root {
+    --space-content: 11rem;
+    --font-size-xl: 2.5rem;
+
+    --article-grid-row-gap: 1.875rem;
+    --article-grid-column-gap: 1.813rem;
+
+    --footer-padding-y: 3.125rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --space-content: 2.75rem;
+    --font-size-xl: 2rem;
+    --space-section: 3.5rem;
+  }
+}
+
+@media (max-width: 770px) {
+  :root {
+    --article-grid-column-gap: 2.5rem;
+    --article-grid-row-gap: 3.125rem;
+    --article-grid-template-columns: repeat(2, 1fr);
+
+    --footer-padding-y: 2.5rem;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 390px) {
+  :root {
+    --space-box: 0.625rem;
+
+    --article-grid-row-gap: 1.875rem;
+    --article-grid-column-gap: 0.625rem;
+    --article-overlay-height: 3.5rem;
+
+    --font-size-md: var(--font-size-base);
+    --font-size-lg: var(--font-size-base);
+    --font-size-xl: 1.5rem;
+  }
+}

@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-lato);
+  font-weight: var(--font-weight-base);
+}
+
+.content, .header {
+  margin: 0 auto;
+  padding: 0 var(--space-content);
+}

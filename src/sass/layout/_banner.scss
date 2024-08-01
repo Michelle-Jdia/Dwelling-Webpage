@@ -1,0 +1,24 @@
+.banner {
+  background-color: var(--color-black);
+  padding-top: var(--space-sm);
+  padding-bottom: var(--space-sm);
+
+  .banner_container {
+    padding: 0 var(--space-content);
+    text-align: right;
+    margin: 0 auto;
+
+    .banner__link {
+      color: var(--color-white);
+      text-decoration: none;
+      margin-right: var(--space-banner-link);
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 770px) {
+      display: none;
+  }
+}
